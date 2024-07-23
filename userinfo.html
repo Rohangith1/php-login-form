@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in & Sign-up Page</title>
+    <!-- link the css file -->
+    <link rel="stylesheet" href="./Style1.css">
+    
+</head>
+<body >
+    <div class="container" id="content01">
+        <div class="img-slider">
+            <h2>Welcome to Debasmita Website</h2>
+            <p>learn sql injectiom </p>
+                <img src="download.png" alt="img">
+        </div>
+        <div class="content">
+            <h2>Get Start</h2>
+            <p>join with us!!!</p>
+            <!-- main form -->
+            <form action="conn.php" method="post" id="form">
+                <label for="name" id="label">Name</label> <br>
+                <input type="text" id="fname" name="name" placeholder="Debasmita " autocomplete="off"> <br>
+                <label for="email" id="label">Email</label> <br>
+                <input type="email" id="email" name="email" placeholder="debasmita@gmail.com" autocomplete="off"> <br>
+                <label for="password" id="label">Password</label> <br>
+                <input type="password" name="password" id="password"> <br>
+                
+                <button type="submit" name="save" value="Submit"   id="btn">Sign Up </button>
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
